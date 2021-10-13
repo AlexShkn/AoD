@@ -10,16 +10,11 @@
 
 	// .header__row
 
-	&__row {
+	&__container {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		height: 85px;
-	}
-
-	// .header__menu
-
-	&__menu {
 	}
 
 	// .header__logo
@@ -33,11 +28,6 @@
 	}
 }
 .menu {
-	// .menu__icon
-
-	&__icon {
-	}
-
 	// .menu__body
 
 	&__body {
@@ -118,11 +108,6 @@
 				}
 			}
 		}
-	}
-
-	// .menu__item
-
-	&__item {
 	}
 
 	// .menu__link

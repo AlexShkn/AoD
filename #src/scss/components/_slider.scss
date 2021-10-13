@@ -1,0 +1,139 @@
+.slider {
+	background-color: #f7f7f7;
+	padding: 120px 0px 60px 0px;
+	// .slider__container
+
+	&__content {
+	}
+
+	// .slider__body
+
+	&__body {
+		position: relative;
+		text-align: center;
+		padding: 0 30px;
+		.slick-arrow {
+			position: absolute;
+			bottom: 40%;
+			font-size: 0;
+			z-index: 10;
+			width: 30px;
+			height: 50px;
+			@media (max-width: 1210px) {
+				display: none;
+			}
+		}
+		.slick-list {
+			overflow: hidden;
+		}
+		.slick-track {
+			display: flex;
+			align-items: flex-start;
+		}
+		.slick-arrow.slick-prev {
+			left: -50px;
+			background: url('../img/icons/arrow_l.svg') 0 0 / 100% no-repeat;
+		}
+		.slick-arrow.slick-next {
+			right: -50px;
+			background: url('../img/icons/arrow_r.svg') 0 0 / 100% no-repeat;
+		}
+		.slick-dots {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-top: 100px;
+		}
+		.slick-dots li {
+			height: 11px;
+			width: 11px;
+			margin: 0 5px;
+			border: 1px solid #c8c8c8;
+			border-radius: 50%;
+			list-style: none;
+			font-size: 0;
+			background-color: transparent;
+		}
+		.slick-dots li.slick-active {
+			background-color: #a9afb3;
+		}
+	}
+
+	// .slider__item
+
+	&__item {
+	}
+
+	// .slider__icon
+
+	&__icon {
+		margin-bottom: 35px;
+	}
+
+	// .slider__title
+
+	&__title {
+		margin-bottom: 20px;
+		color: #353738;
+		font-size: 18px;
+		font-weight: 700;
+		font-weight: 700;
+		letter-spacing: 1.8px;
+		span {
+			color: #848789;
+			font-weight: 300;
+			letter-spacing: 1.8px;
+		}
+	}
+
+	// .slider__text
+
+	&__text {
+		color: #848789;
+		font-size: 24px;
+		font-style: italic;
+		line-height: 34px;
+	}
+}
+
+/* Слайдер */
+.slick-slider {
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+/* Лента слайдов */
+/* Слайд */
+.slick-slide {
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
+.slick-dots li button {
+}

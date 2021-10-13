@@ -10,7 +10,6 @@
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	</head>
-
 	<body>
 		<div class="wrapper">
 			<main class="page">
@@ -21,7 +20,9 @@
 					</div>
 				</div>
 				<div class="content">
-
+					@@include('_generation.html',{})
+					@@include('_brands.html',{})
+					@@include('_slider.html',{})
 				</div>
 			</main>
 			@@include('_footer.html',{})
@@ -29,6 +30,7 @@
 		@@include('_popup.html',{})
 		<!-- Swiper -->
 		<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<script src="js/vendors.min.js"></script>
 		<script src="js/app.min.js"></script>
 	</body>
