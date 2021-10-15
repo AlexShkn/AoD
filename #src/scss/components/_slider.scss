@@ -13,15 +13,15 @@
 		text-align: center;
 		padding: 0 30px;
 		.slick-arrow {
-			position: absolute;
-			bottom: 40%;
+			// // position: absolute;
+			// // bottom: 40%;
 			font-size: 0;
-			z-index: 10;
-			width: 30px;
-			height: 50px;
-			@media (max-width: 1210px) {
-				display: none;
-			}
+			// z-index: 10;
+			// width: 30px;
+			// height: 50px;
+			// @media (max-width: 1210px) {
+			// 	display: none;
+			// }
 		}
 		.slick-list {
 			overflow: hidden;
@@ -30,14 +30,14 @@
 			display: flex;
 			align-items: flex-start;
 		}
-		.slick-arrow.slick-prev {
-			left: -50px;
-			background: url('../img/icons/arrow_l.svg') 0 0 / 100% no-repeat;
-		}
-		.slick-arrow.slick-next {
-			right: -50px;
-			background: url('../img/icons/arrow_r.svg') 0 0 / 100% no-repeat;
-		}
+		// .slick-arrow.slick-prev {
+		// 	left: -50px;
+		// 	background: url('../img/icons/arrow_l.svg') 0 0 / 100% no-repeat;
+		// }
+		// .slick-arrow.slick-next {
+		// 	right: -50px;
+		// 	background: url('../img/icons/arrow_r.svg') 0 0 / 100% no-repeat;
+		// }
 		.slick-dots {
 			display: flex;
 			align-items: center;
